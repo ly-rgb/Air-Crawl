@@ -1,2 +1,5 @@
-# browser
-supplement browser
+此框架为航空公司业务爬虫
+
+支持的业务有: 抓数、行李、选座、质检、订票、退票等流程
+
+编程语言: python
