@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "@babel/generator": "^7.19.6",
+    "@babel/parser": "^7.19.6",
+    "@babel/traverse": "^7.19.6",
+    "@babel/types": "^7.19.4",
+    "atob": "^2.1.2",
+    "crypto-js": "^4.1.1",
+    "get-random-values": "^2.0.0",
+    "nodejs-jsencrypt": "^3.0.0-rc.1"
+  }
+}

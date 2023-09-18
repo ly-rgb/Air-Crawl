@@ -1,0 +1,12 @@
+ERROR [2022-12-21 15:53:59,505][D:\phasell_on_python_2\airline\AFZ\service.py service(24):add_on][9312]:Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AFZ\service.py", line 14, in add_on
+    securitytoken = app.bookingAvailability(holdTask)
+  File "D:\phasell_on_python_2\airline\AFZ\AFZApp.py", line 66, in bookingAvailability
+    raise Exception(f"[resp] ==> {resp.status_code}")
+Exception: [resp] ==> 400
+
+ERROR [2022-12-21 17:11:31,813][D:\phasell_on_python_2\airline\AFZ\service.py service(24):add_on][8176]:Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AFZ\service.py", line 20, in add_on
+    bag_list = app.get_bag_list()
+TypeError: AFZApp.get_bag_list() missing 1 required positional argument: 'securitytoken'
+

@@ -1,0 +1,34 @@
+INFO [2022-12-30 12:00:29,768][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(82):search][9336]:抓数的状态码为200
+ERROR [2022-12-30 12:00:29,794][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][9336]:AB7,TSA,KNH,2023-01-01,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 91, in convert_search
+    year = selector.css(
+TypeError: 'NoneType' object is not subscriptable
+
+INFO [2022-12-30 16:29:02,266][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(82):search][6892]:抓数的状态码为200
+ERROR [2022-12-30 16:29:03,668][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][6892]:AB7,TSA,KNH,2022-12-31,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 153, in convert_search
+    full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2022-12-30 16:31:42,547][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][8592]:抓数的状态码为200
+ERROR [2022-12-30 16:31:44,015][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][8592]:AB7,TSA,KNH,2022-12-31,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 155, in convert_search
+    full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2022-12-30 17:40:24,836][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][5224]:抓数的状态码为200
+INFO [2022-12-30 17:40:26,082][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(231):convert_search][5224]:result为[]
+INFO [2022-12-30 17:46:59,816][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][10688]:抓数的状态码为200
+ERROR [2022-12-30 17:47:00,428][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][10688]:AB7,TSA,KNH,2022-12-31,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 204, in convert_search
+    "depTime": deptime.replace(' ', ''),
+AttributeError: 'NoneType' object has no attribute 'replace'
+

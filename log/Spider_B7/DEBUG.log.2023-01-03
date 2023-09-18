@@ -1,0 +1,89 @@
+INFO [2023-01-03 10:03:38,184][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][3540]:抓数的状态码为200
+ERROR [2023-01-03 10:03:38,590][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][3540]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 10, in api_search
+    app.search(taskItem)
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 169, in search
+    self.full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 10:08:31,186][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][11664]:抓数的状态码为200
+INFO [2023-01-03 10:08:32,155][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(168):search][11664]:全价的状态码为200
+ERROR [2023-01-03 10:08:32,155][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][11664]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 10, in api_search
+    app.search(taskItem)
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 170, in search
+    self.full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 10:34:47,560][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][5680]:抓数的状态码为200
+INFO [2023-01-03 10:34:47,935][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(168):search][5680]:全价的状态码为200
+ERROR [2023-01-03 10:34:47,935][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][5680]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 10, in api_search
+    app.search(taskItem)
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 172, in search
+    self.full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 10:37:49,287][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][10572]:抓数的状态码为200
+ERROR [2023-01-03 10:37:49,646][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][10572]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 10, in api_search
+    app.search(taskItem)
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 170, in search
+    self.full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 10:40:51,690][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(84):search][7812]:抓数的状态码为200
+ERROR [2023-01-03 10:40:52,081][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][7812]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 10, in api_search
+    app.search(taskItem)
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 170, in search
+    self.full_price = selector.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 10:58:37,537][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(84):search][3508]:抓数的状态码为200
+ERROR [2023-01-03 10:58:39,255][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][3508]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 232, in convert_search
+    "depTime": deptime.replace(' ', ''),
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 11:24:21,447][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][10988]:抓数的状态码为200
+ERROR [2023-01-03 11:24:24,478][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][10988]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 231, in convert_search
+    "depTime": deptime.replace(' ', ''),
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 11:50:56,960][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][2612]:抓数的状态码为200
+ERROR [2023-01-03 11:50:58,694][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][2612]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 170, in convert_search
+    dep_time = flight_div.css(
+TypeError: replace expected at least 2 arguments, got 1
+
+INFO [2023-01-03 11:51:28,606][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][10968]:抓数的状态码为200
+ERROR [2023-01-03 11:51:30,387][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][10968]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 170, in convert_search
+    dep_time = flight_div.css(
+AttributeError: 'NoneType' object has no attribute 'replace'
+
+INFO [2023-01-03 11:55:50,552][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][8688]:抓数的状态码为200
+INFO [2023-01-03 11:55:51,989][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(173):convert_search][8688]:dep_time为07:00
+INFO [2023-01-03 11:55:51,989][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(173):convert_search][8688]:dep_time为None
+ERROR [2023-01-03 11:55:51,989][D:\phasell_on_python_2\airline\AB7\service.py service(16):api_search][8688]:AB7,TSA,KNH,2023-01-04,,1,,,AFARE,0,,READTIMELCC Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AB7\service.py", line 11, in api_search
+    result = app.convert_search()
+  File "D:\phasell_on_python_2\airline\AB7\AB7Web.py", line 192, in convert_search
+    "depTime": self.deptime + dep_time,
+TypeError: can only concatenate str (not "NoneType") to str
+
+INFO [2023-01-03 11:56:42,569][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(83):search][6948]:抓数的状态码为200
+INFO [2023-01-03 11:56:43,631][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(173):convert_search][6948]:dep_time为0700
+INFO [2023-01-03 11:56:43,631][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(173):convert_search][6948]:dep_time为1430
+INFO [2023-01-03 11:56:43,631][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(173):convert_search][6948]:dep_time为1820
+INFO [2023-01-03 11:56:43,631][D:\phasell_on_python_2\airline\AB7\AB7Web.py AB7Web(220):convert_search][6948]:result为[{'data': 'B7-8801', 'productClass': 'ECONOMIC', 'fromSegments': [{'carrier': 'B7', 'flightNumber': 'B7-8801', 'depAirport': 'TSA', 'depTime': '202301040700', 'arrAirport': 'KNH', 'arrTime': '202301040805', 'codeshare': False, 'cabin': 'Y', 'num': 0, 'aircraftCode': '', 'segmentType': 0}], 'cur': 'TWD', 'adultPrice': '1,638', 'adultTax': 0, 'childPrice': 0, 'childTax': 0, 'promoPrice': 0, 'adultTaxType': 0, 'childTaxType': 0, 'priceType': 0, 'applyType': 0, 'max': 1, 'limitPrice': True, 'info': ''}, {'data': 'B7-8821', 'productClass': 'ECONOMIC', 'fromSegments': [{'carrier': 'B7', 'flightNumber': 'B7-8821', 'depAirport': 'TSA', 'depTime': '202301041430', 'arrAirport': 'KNH', 'arrTime': '202301041535', 'codeshare': False, 'cabin': 'Y', 'num': 0, 'aircraftCode': '', 'segmentType': 0}], 'cur': 'TWD', 'adultPrice': '2,368', 'adultTax': 0, 'childPrice': 0, 'childTax': 0, 'promoPrice': 0, 'adultTaxType': 0, 'childTaxType': 0, 'priceType': 0, 'applyType': 0, 'max': 1, 'limitPrice': True, 'info': ''}, {'data': 'B7-8835', 'productClass': 'ECONOMIC', 'fromSegments': [{'carrier': 'B7', 'flightNumber': 'B7-8835', 'depAirport': 'TSA', 'depTime': '202301041820', 'arrAirport': 'KNH', 'arrTime': '202301041925', 'codeshare': False, 'cabin': 'Y', 'num': 0, 'aircraftCode': '', 'segmentType': 0}], 'cur': 'TWD', 'adultPrice': '1,638', 'adultTax': 0, 'childPrice': 0, 'childTax': 0, 'promoPrice': 0, 'adultTaxType': 0, 'childTaxType': 0, 'priceType': 0, 'applyType': 0, 'max': 1, 'limitPrice': True, 'info': ''}]

@@ -1,0 +1,9 @@
+.idea
+*.log
+.out
+flight.cfg
+db.cfg
+apd.cfg
+__pycache__
+ATSWeb_conntent.py
+dbtest

@@ -1,0 +1,7 @@
+ERROR [2022-12-13 09:53:21,840][D:\phasell_on_python_2\airline\AVB\service.py service(25):add_on][2476]:Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AVB\service.py", line 14, in add_on
+    app.bookingAvailability(holdTask)
+  File "D:\phasell_on_python_2\airline\AVB\AVBApp.py", line 69, in bookingAvailability
+    self.logger.info(f'此次请求的abck为{self.cookie}')
+AttributeError: 'AVBApp' object has no attribute 'cookie'
+

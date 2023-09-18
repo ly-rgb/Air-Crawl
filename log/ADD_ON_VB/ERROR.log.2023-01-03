@@ -1,0 +1,21 @@
+ERROR [2023-01-03 16:14:19,940][D:\phasell_on_python_2\airline\AVB\service.py service(27):add_on][4660]:Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AVB\service.py", line 17, in add_on
+    add_on_select_flight(holdTask, flight)
+  File "D:\phasell_on_python_2\airline\base.py", line 956, in add_on_select_flight
+    raise Exception(f'[{task.orderCode}][add_on_select_flight][无目标航班]')
+Exception: [FVB,MID,HAV,MTY,baggage,2023-01-31,0][add_on_select_flight][无目标航班]
+
+ERROR [2023-01-03 17:18:06,622][D:\phasell_on_python_2\airline\AVB\service.py service(27):add_on][7304]:Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AVB\service.py", line 17, in add_on
+    add_on_select_flight(holdTask, flight)
+  File "D:\phasell_on_python_2\airline\base.py", line 956, in add_on_select_flight
+    raise Exception(f'[{task.orderCode}][add_on_select_flight][无目标航班]')
+Exception: [FVB,MID,HAV,MTY,baggage,2023-01-29,0][add_on_select_flight][无目标航班]
+
+ERROR [2023-01-03 17:56:38,211][D:\phasell_on_python_2\airline\AVB\service.py service(27):add_on][13240]:Traceback (most recent call last):
+  File "D:\phasell_on_python_2\airline\AVB\service.py", line 17, in add_on
+    add_on_select_flight(holdTask, flight)
+  File "D:\phasell_on_python_2\airline\base.py", line 956, in add_on_select_flight
+    raise Exception(f'[{task.orderCode}][add_on_select_flight][无目标航班]')
+Exception: [FVB,MID,HAV,MTY,baggage,2023-01-29,0][add_on_select_flight][无目标航班]
+

@@ -1,0 +1,329 @@
+[
+  {
+    "ABZ": "aberdeen"
+  },
+  {
+    "BYF": "albert"
+  },
+  {
+    "ALC": "alicante"
+  },
+  {
+    "LEI": "almeria"
+  },
+  {
+    "AMS": "amsterdam"
+  },
+  {
+    "AYT": "antalya"
+  },
+  {
+    "ATH": "athens"
+  },
+  {
+    "AVN": "avignon-provence"
+  },
+  {
+    "BCN": "barcelona"
+  },
+  {
+    "BFS": "belfast"
+  },
+  {
+    "EGC": "bergerac"
+  },
+  {
+    "BER": "berlin"
+  },
+  {
+    "SXF": "berlinsxf"
+  },
+  {
+    "BHX": "birmingham"
+  },
+  {
+    "BLK": "blackpool"
+  },
+  {
+    "BJV": "bodrum"
+  },
+  {
+    "BOJ": "bourgas"
+  },
+  {
+    "BRS": "bristol"
+  },
+  {
+    "BUD": "budapest"
+  },
+  {
+    "CMF": "chambery"
+  },
+  {
+    "CGN": "cologne"
+  },
+  {
+    "CPH": "copenhagen"
+  },
+  {
+    "CFU": "corfu"
+  },
+  {
+    "CHQ": "crete-chania"
+  },
+  {
+    "HER": "crete"
+  },
+  {
+    "DLM": "dalaman"
+  },
+  {
+    "BVE": "dordogne-valley-brive"
+  },
+  {
+    "DBV": "dubrovnik"
+  },
+  {
+    "DUS": "dusseldorf"
+  },
+  {
+    "EMA": "east-midlands"
+  },
+  {
+    "EDI": "edinburgh"
+  },
+  {
+    "FAO": "faro"
+  },
+  {
+    "FDH": "friedrichshafen"
+  },
+  {
+    "FUE": "fuerteventura"
+  },
+  {
+    "GVA": "geneva"
+  },
+  {
+    "GRO": "girona"
+  },
+  {
+    "GLA": "glasgow"
+  },
+  {
+    "LPA": "gran-canaria"
+  },
+  {
+    "GNB": "grenoble"
+  },
+  {
+    "HRG": "hurghada"
+  },
+  {
+    "IBZ": "ibiza"
+  },
+  {
+    "INN": "innsbruck"
+  },
+  {
+    "IST": "istanbul"
+  },
+  {
+    "ADB": "izmir"
+  },
+  {
+    "JER": "jersey"
+  },
+  {
+    "KLX": "kalamata"
+  },
+  {
+    "EFL": "kefalonia"
+  },
+  {
+    "KGS": "kos"
+  },
+  {
+    "KRK": "krakow"
+  },
+  {
+    "LRH": "la-rochelle"
+  },
+  {
+    "ACE": "lanzarote"
+  },
+  {
+    "LCA": "larnaca"
+  },
+  {
+    "LBA": "leeds-bradford"
+  },
+  {
+    "MJT": "lesvos"
+  },
+  {
+    "LIS": "lisbon"
+  },
+  {
+    "LPL": "liverpool"
+  },
+  {
+    "ILD": "lleida-andorra"
+  },
+  {
+    "STN": "london-stansted"
+  },
+  {
+    "LYS": "lyon"
+  },
+  {
+    "FNC": "madeira"
+  },
+  {
+    "PMI": "majorca"
+  },
+  {
+    "AGP": "malaga"
+  },
+  {
+    "MLA": "malta"
+  },
+  {
+    "MAN": "manchester"
+  },
+  {
+    "RAK": "marrakech"
+  },
+  {
+    "MAH": "menorca"
+  },
+  {
+    "BGY": "milan"
+  },
+  {
+    "MUC": "munich"
+  },
+  {
+    "RMU": "murcia-corvera"
+  },
+  {
+    "MJV": "murcia-san-javier"
+  },
+  {
+    "JMK": "mykonos"
+  },
+  {
+    "NAP": "naples"
+  },
+  {
+    "EWR": "new-york"
+  },
+  {
+    "NCL": "newcastle"
+  },
+  {
+    "NQY": "newquay"
+  },
+  {
+    "NCE": "nice"
+  },
+  {
+    "NUE": "nuremberg"
+  },
+  {
+    "PFO": "paphos"
+  },
+  {
+    "CDG": "paris"
+  },
+  {
+    "PSA": "pisa"
+  },
+  {
+    "PRG": "prague"
+  },
+  {
+    "PVK": "preveza"
+  },
+  {
+    "PUY": "pula"
+  },
+  {
+    "REU": "reus"
+  },
+  {
+    "KEF": "reykjavik"
+  },
+  {
+    "RHO": "rhodes"
+  },
+  {
+    "FCO": "rome"
+  },
+  {
+    "SZG": "salzburg"
+  },
+  {
+    "JTR": "santorini"
+  },
+  {
+    "OLB": "sardinia"
+  },
+  {
+    "SSH": "sharm-el-sheikh"
+  },
+  {
+    "CTA": "sicily-catania"
+  },
+  {
+    "JSI": "skiathos"
+  },
+  {
+    "SOF": "sofia"
+  },
+  {
+    "SPU": "split"
+  },
+  {
+    "LED": "st-petersburg"
+  },
+  {
+    "SXB": "strasbourg"
+  },
+  {
+    "TFS": "tenerife"
+  },
+  {
+    "SKG": "thessaloniki"
+  },
+  {
+    "TIV": "tivat"
+  },
+  {
+    "TLS": "toulouse"
+  },
+  {
+    "NBE": "tunisia"
+  },
+  {
+    "TRN": "turin"
+  },
+  {
+    "VCE": "venice"
+  },
+  {
+    "VRN": "verona"
+  },
+  {
+    "VIE": "vienna"
+  },
+  {
+    "ZAD": "zadar"
+  },
+  {
+    "ZTH": "zante"
+  },
+  {
+    "MIR": "zztunisia-monastir"
+  }
+]

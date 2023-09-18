@@ -1,0 +1,44 @@
+import collections
+import re
+from datetime import datetime, timedelta
+from typing import Any, Union, Dict
+from requests.models import Response
+from airline.base import AirAgentV3Development, pay_error_result
+from robot import HoldTask
+from utils.log import spider_${flightNumber}_logger
+from utils.searchparser import SearchParam
+
+
+class A${flightNumber}Web(AirAgentV3Development):
+    """${url}"""
+    search_response: Response
+
+    def __init__(self, proxies_type=0, retry_count=3, timeout=60, holdTask=None):
+        super().__init__(proxies_type, retry_count, timeout)
+        self.holdTask: HoldTask = holdTask
+        self.flights: Dict = {}
+        self._headers = {
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.0.0 Safari/537.36"
+        }
+
+    def search(self, searchParam: SearchParam):
+        pass
+
+    def convert_search(self):
+        pass
+
+
+def api_search(taskItem, proxies_type=35):
+    result = None
+    code = 0
+    try:
+        app = A${flightNumber}Web(proxies_type=proxies_type)
+        app.search(taskItem)
+        result = app.convert_search()
+        if not result:
+            code = 2
+    except Exception:
+        import traceback
+        spider_${flightNumber}_logger.error(f"{taskItem} {traceback.format_exc()}")
+        code = 3
+    return code, result
